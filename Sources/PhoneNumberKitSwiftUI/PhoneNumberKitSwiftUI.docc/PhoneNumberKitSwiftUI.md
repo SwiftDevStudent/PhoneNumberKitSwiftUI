@@ -4,6 +4,8 @@ Build SwiftUI phone number fields with PhoneNumberKit formatting, validation, co
 
 ## Overview
 
+PhoneNumberKitSwiftUI gives iOS apps a focused phone number input component backed by PhoneNumberKit. It handles partial formatting while users type, validates the current number, supports optional international prefixes and prefix prefill, and can show a searchable country picker with flag selection.
+
 PhoneNumberKitSwiftUI provides two primary types:
 
 - ``PhoneNumberField``: A SwiftUI field for entering and formatting phone numbers.

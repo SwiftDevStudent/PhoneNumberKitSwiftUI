@@ -24,8 +24,10 @@ public struct PhoneNumberField: View {
                     Text(store.flagEmoji + " ")
                 }
                 .buttonStyle(.plain)
+
+                Divider()
             }
-            Divider()
+
             TextField(title, text: $store.text, prompt: placeholderView)
                 .phoneFormat(store)
                 .keyboardType(store.withPrefix ? .phonePad : .numberPad)

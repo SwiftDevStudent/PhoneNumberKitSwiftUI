@@ -1,6 +1,8 @@
 # PhoneNumberKitSwiftUI
 
-A small SwiftUI phone number field backed by [PhoneNumberKit](https://github.com/PhoneNumberKit/PhoneNumberKit).
+PhoneNumberKitSwiftUI is a lightweight SwiftUI phone number field backed by [PhoneNumberKit](https://github.com/PhoneNumberKit/PhoneNumberKit). It gives iOS apps live phone number formatting, validation, optional international prefixes, example placeholders, and a searchable country picker with flag support while keeping the current formatted, raw, national, regional, and parsed values available from one observable store.
+
+![PhoneNumberKitSwiftUI preview](Docs/Images/phone-number-kit-swiftui-preview.png)
 
 ## Requirements
 
@@ -14,7 +16,7 @@ Add the package with Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "<repository-url>", from: "1.0.0")
+    .package(url: "<repository-url>", from: "1.0.1")
 ]
 ```
 
