@@ -8,7 +8,7 @@ PhoneNumberKitSwiftUI is a lightweight SwiftUI phone number field backed by [Pho
 
 - iOS 17+
 - Swift 6.2+
-- PhoneNumberKit 5.0+
+- PhoneNumberKit 5.0.2+
 
 ## Installation
 
