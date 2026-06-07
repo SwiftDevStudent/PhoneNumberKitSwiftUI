@@ -16,7 +16,7 @@ Add the package with Swift Package Manager:
 
 ```swift
 dependencies: [
-    .package(url: "<repository-url>", from: "1.0.1")
+    .package(url: "https://github.com/SwiftDevStudent/PhoneNumberKitSwiftUI.git", from: "1.0.2")
 ]
 ```
 
